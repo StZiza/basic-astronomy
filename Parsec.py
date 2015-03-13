@@ -1,25 +1,28 @@
-#http://www.codeskulptor.org/#user39_EdPuMNXkjm_0.py
-################################################
-################################################
-################################################	
+#######################################################
+#######################################################
+#######################################################
+# http://www.codeskulptor.org/#user39_EdPuMNXkjm_0.py #
+#######################################################
+#######################################################
+#######################################################	
 
 from math import *
 #uzaklık gir milyon km cinsinden parsek hesaplayacak ıy cinsinden
 
-b=input(' AU cinsinden uzaklik giriniz:')
+b = input('AU cinsinden uzaklik giriniz:')
 
-a=1./3600.
+a = 1./3600.
 #print a
-pc=float(b)/tan(radians(a))
+pc = float(b)/tan(radians(a))
 print tan(a)
 print float(b)
 print pc
 
-ly=3e5*365*24*60*60
+ly = 3e5*365*24*60*60
 print ly
-au=150e6
+au = 150e6
 print au
-iy=(pc*au)/ly
+iy = (pc*au)/ly
 
 
 print 'Bulundugunuz gezegen icin 1 pc degeri:' 
